@@ -15,5 +15,10 @@ public class DataObserver1 {
         System.out.println("String msg: " + msg);
     }
 
+    @Subscribe
+    public void func2(String msg) {
+        System.out.println("String msg2: " + msg);
+    }
+
 
 }
